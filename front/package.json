@@ -1,0 +1,19 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "My groovy Nuxt.js project",
+  "author": "sizer",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "dev:debug": "node --inspect=5858 node_modules/.bin/nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {}
+}
